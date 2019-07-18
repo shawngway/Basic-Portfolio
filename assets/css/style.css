@@ -4,16 +4,33 @@
     display: table;
   }
 .navigation {
-    height: 0px;
-    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    height: 100px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #ffffff;
+    border-bottom-style: solid;
+    border-color: #cccccc;
+    border-width: 2px;
+    
+    
 }
 .name {
     position: fixed;
     background-color: #4aaaa5;
-    padding: 18px;
-    margin-left: 69px;
+    padding: 33px;
+    margin-left: 332px;
     font-size: 30px;
     color: white;
+    top: 0px;
+}
+.listwrap {
+  position: fixed;
+  right: 0px;
+  top: opx;
+  background-color: black;
 }
 ul {
     position: fixed;
@@ -45,6 +62,13 @@ ul {
   li a:hover {
     background-color: #111;
   }
+.aboutcontent {
+  width: 960px;
+  margin: auto;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #dddddd;
+}
 .footer {
     position: fixed;
     left: 0;
@@ -56,16 +80,15 @@ ul {
     border-top: solid;
     border-color:#4aaaa5;
     border-width: 5px;
+    height: 60px;
   }
-.page {
-      width: 960px;
-      padding: 20px;
-      margin-top: 100px;
-      margin-bottom: 100px;
-      margin-right: 100px;
-      margin-left: 100px;
-      border-style: solid;
-      border-width: 1px;
-      border-color: #cccccc;
+.pagecontainer {
+  margin-top: 125px;
+  margin-bottom: 125px;
+}
+
       
+}
+body {
+  
 }
