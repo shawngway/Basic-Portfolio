@@ -29,21 +29,22 @@
 .listwrap {
   position: fixed;
   right: 0px;
-  top: opx;
+  top: 0px;
   background-color: black;
+}
+.listwrap li:not(:first-child):after {
+  content: " | ";
 }
 ul {
     position: fixed;
     list-style-type: none;
-    top: 0px;
-    right: 0px;
-    left: 0px;
+    top: 12px;
+    right: 325px;
     overflow: hidden;
     background-color: #ffffff;
     height: 70px;
     margin: auto;
-    border-bottom: solid;
-    border-color: #cccccc;
+    
   }
   
   li {
@@ -51,8 +52,8 @@ ul {
   }
   
   li a {
-    margin-top:15px;
-    display: block;
+    margin-top: 15px;
+    display: inline-block;
     color: #777777;
     text-align: center;
     padding: 14px 16px;
@@ -61,6 +62,16 @@ ul {
   
   li a:hover {
     background-color: #111;
+  }
+.aboutme {
+    color:  #4aaaa5;
+  }  
+hr {
+    width: 90%;
+  }
+.aboutwrapper {
+  
+
   }
 .aboutcontent {
   width: 960px;
