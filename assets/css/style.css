@@ -65,6 +65,7 @@ ul {
   }
 .aboutme {
     color:  #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
   }  
 hr {
 color: #dddddd;
@@ -109,10 +110,12 @@ color: #cccccc;
 .pagecontainer {
   margin-top: 125px;
   margin-bottom: 125px;
+  /* background-image: url("/assets/images/fishnets-and-hearts.zip"); */
 }
 
       
 }
 body {
+  font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   
 }
