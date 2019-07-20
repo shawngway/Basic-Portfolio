@@ -67,11 +67,19 @@ ul {
     color:  #4aaaa5;
   }  
 hr {
-    width: 90%;
+color: #dddddd;
   }
 .aboutwrapper {
-  
+  margin: 35px 25px 25px 25px;
+  line-height: 1.6;
+  text-align: left;
+  font-size: 20px;
+  color: grey;
 
+  }
+ #aboutpic { 
+    float: left;
+    padding: 30px;
   }
 .aboutcontent {
   width: 960px;
@@ -93,6 +101,11 @@ hr {
     border-width: 5px;
     height: 60px;
   }
+.footercopy {
+margin-top: 40px;
+font-size: 13px;
+color: #cccccc;
+}
 .pagecontainer {
   margin-top: 125px;
   margin-bottom: 125px;
